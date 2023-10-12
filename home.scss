@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Pacifico&display=swap');
+.jumbotron{
+    overflow: hidden;
+    height: 100vh;
+    padding: 0px;
+    display: block;
+    // img{
+    //     width: 250px;
+    //     position: absolute;
+    // }
+    background-color: #3C1E33;
+    // background-color: #E3B8A1;
+}
+@keyframes jumbotron {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.jumbotron .container-fluid{
+    // position: relative;
+    padding-top: 0%;
+    // margin: 10px auto;
+    // padding-left: 50%;
+    
+    img{
+        margin: 0px;
+        padding: 0px;
+        // margin: 20px 15px;
+        // border: 1px solid #ddd;
+        // border-radius: 4px;
+        // padding: 5px;
+        // image-rendering: pixelated;
+    }
+}
+
+.startBtn{
+    position: absolute;
+    display: block;
+    margin: 0 40%;
+    margin-top: 34%;
+    padding: 10px 35px;
+    font-size: 24px;
+    width: 200px;
+    background-color: #8E3B72;
+    color: white;
+    border: 2px #AB6D5C solid;
+    border-radius: 10px;
+}
+
+@keyframes opacity {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+// next div
+.home{
+    background-color: #333333;
+    height: 200vh;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    display: none;
+    overflow: hidden;
+    
+}
+p{
+    width: 400px;
+}
+.img1{
+    display: block;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 5px;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+@media screen and (max-width: 450px) {
+    p{
+        width: 300px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    h1{
+        text-align: center;
+    }
+    .startBtn{
+        margin-left: 60px;
+        margin-top: 500px;
+    }
+    .jumbotron .container-fluid{
+        padding-left: 40px;
+    }
+}
